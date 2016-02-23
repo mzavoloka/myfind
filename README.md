@@ -14,7 +14,10 @@ Here's an example output of this utility:
 
 ![Example output of myfind utility](/myfind.png?raw=true "Example output")
 
-You can also use it with complex regexps:
+You can also use it with more complex regexps:
+```shell
+myfind .*everyouwant
+```
 
 ![Example complex output of myfind utility](/myfind_complex.png?raw=true "Example output")
 
