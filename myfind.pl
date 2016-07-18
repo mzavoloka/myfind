@@ -2,7 +2,7 @@ use v5.18;
 use File::Find;
 use Term::ANSIColor;
 
-my @ignore_directories = qw( .git );
+my @ignore_directories = qw( .git .svn );
 my $i = 0;
 my @output = ();
 
