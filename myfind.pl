@@ -1,4 +1,4 @@
-use v5.18;
+use v5.16;
 use File::Find;
 use Term::ANSIColor;
 
