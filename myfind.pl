@@ -1,4 +1,5 @@
-use v5.16;
+use strict;
+use feature 'say';
 use File::Find;
 use Term::ANSIColor;
 
@@ -18,7 +19,7 @@ sub fill_output_array
         {
             $File::Find::prune = 1; return;
         }
-        elsif( $filename =~ /$argument/ )
+        elsif( $filename =~ /$argument/i )
         {
             push( @output, {
                 number   => ++$i,
